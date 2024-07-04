@@ -47,7 +47,7 @@ let opponent = await inquirer.prompt([
         choices: ["Alien", "Captain", "Kache ke Daku"]
     }
 ])
-let p1 = new Player (player.name)
+let p1 = new Player (player.Name)
 let o1 = new Opponent (opponent.select)
 
 do {
